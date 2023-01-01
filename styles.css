@@ -1,0 +1,36 @@
+*{
+    margin: 10px;
+    font-weight: 300;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 80px 80px 0px 0px;
+    border: 1px solid black;
+}
+
+.switches{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one,.two,.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
